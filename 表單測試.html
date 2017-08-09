@@ -11,7 +11,30 @@
 <form action="xxx.asp" method="get">
 帳號:<input type="text" /><br />
 密碼:<input type="password" /><br />
+<!--name用來分組-->
+<input type="radio" name="test1"/> 密碼顯示
+<input type="radio" checked="checked"/ name="test1"> 密碼隱藏
+<br />
+<input type="checkbox"/>顯示密碼
+<br />
+
+<select>
+<option>Show password</option>
+<option selected="selected">Hide password</option>
+
+</select>
+<br />
+
 <input type="button" value="send"/>
+<input type="submit" value="submit" />
+
+<br />
+
+Comment:<br />
+
+<textarea name="comment" rows="5" cols="20">
+
+</textarea>
 
 
 
@@ -19,7 +42,6 @@
 
 
 </form>
-
 
 
 </body>
